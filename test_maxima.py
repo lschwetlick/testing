@@ -41,6 +41,12 @@ def test_both_borders_left():
     assert exp == out
 
 
+def test_plateau():
+    inp = [1, 2, 2, 1]
+    out = find_maxima(inp)
+    exp = [0, 3]
+    assert exp == out
+
 
 
 # additional tests for
